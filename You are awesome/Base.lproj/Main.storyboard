@@ -27,8 +27,8 @@
                                 <color key="textColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maa-hA-pED">
-                                <rect key="frame" x="124" y="117" width="73" height="24"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maa-hA-pED">
+                                <rect key="frame" x="123.5" y="117" width="73" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="VXc-TP-QMR"/>
                                     <constraint firstAttribute="width" constant="73" id="eUO-Ss-wfh"/>
@@ -49,6 +49,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jJY-YJ-z1z" secondAttribute="trailing" constant="25" id="8PP-wN-17T"/>
                             <constraint firstItem="I6s-PI-Ezx" firstAttribute="top" secondItem="maa-hA-pED" secondAttribute="bottom" constant="10" id="QuA-w6-NAn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I6s-PI-Ezx" secondAttribute="trailing" constant="10" id="WrP-hB-Ypg"/>
+                            <constraint firstItem="maa-hA-pED" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bAA-BA-dUm"/>
                             <constraint firstItem="jJY-YJ-z1z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hpU-hB-Aqa"/>
                             <constraint firstItem="jJY-YJ-z1z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="pC0-rn-ucf"/>
                             <constraint firstItem="maa-hA-pED" firstAttribute="top" secondItem="jJY-YJ-z1z" secondAttribute="bottom" constant="10" id="pgz-aL-Eea"/>
@@ -58,6 +59,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="awesomeimage" destination="I6s-PI-Ezx" id="Paa-tQ-V8J"/>
                         <outlet property="messagelabel" destination="jJY-YJ-z1z" id="LRr-4N-u7S"/>
                     </connections>
                 </viewController>
