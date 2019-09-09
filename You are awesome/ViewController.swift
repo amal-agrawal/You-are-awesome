@@ -28,14 +28,18 @@ class ViewController: UIViewController {
                         "When the Genius Bar needs you, they'll call you",
                         "You brighten my day",
                         ]
-        var index = 0
-        messagelabel.text = messages[index]
         
-        if index == messages.count - 1 {
-            index = 0
-        } else {
-            index = index + 1
-        }
+        messagelabel.text = messages.randomElement()!
+        
+        
+//        var index = 0
+//        messagelabel.text = messages[index]
+//
+//        if index == messages.count - 1 {
+//            index = 0
+//        } else {
+//            index = index + 1
+//        }
         
 //        let message1 = "You are Awesome!"
 //        let message2 = "You are Great!"
